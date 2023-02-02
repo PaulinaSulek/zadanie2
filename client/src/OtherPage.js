@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 
 export default () => {
   return (
+    <div>docker-test</div>
+    <div>Paulina Sułek</div>
+    <div>I2S 1.4</div>
     <div>
-      Im some other page!
-      <Link to="/">Go back home</Link>
+            <Link to="/">Go back home</Link>
     </div>
   );
 };
